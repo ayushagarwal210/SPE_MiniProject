@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('Git pull') {
             steps {
-                git 'https://github.com/ayushagarwal210/SPE_MiniProject.git', branch:"main"
+                git url:  'https://github.com/ayushagarwal210/SPE_MiniProject.git',
+                branch:"main"
             }
         }
         stage('Maven Build') {
