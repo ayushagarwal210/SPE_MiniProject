@@ -1,0 +1,16 @@
+2023-03-20 22:32:47.385 [main] INFO  org.example.Calculator - [SQ ROOT] - 9
+2023-03-20 22:32:47.391 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 3.0
+2023-03-20 22:32:47.391 [main] INFO  org.example.Calculator - [SQ ROOT] - 16
+2023-03-20 22:32:47.392 [main] INFO  org.example.Calculator - [RESULT - SQ ROOT] - 4.0
+2023-03-20 22:32:47.393 [main] INFO  org.example.Calculator - [NATURAL LOG] - 10
+2023-03-20 22:32:47.394 [main] INFO  org.example.Calculator - [RESULT - NATURAL LOG] - 2.302585092994046
+2023-03-20 22:32:47.394 [main] INFO  org.example.Calculator - [NATURAL LOG] - 20
+2023-03-20 22:32:47.394 [main] INFO  org.example.Calculator - [RESULT - NATURAL LOG] - 2.995732273553991
+2023-03-20 22:32:47.396 [main] INFO  org.example.Calculator - Factorial =  5
+2023-03-20 22:32:47.397 [main] INFO  org.example.Calculator - RESULT - FACTORIAL = 120
+2023-03-20 22:32:47.397 [main] INFO  org.example.Calculator - Factorial =  4
+2023-03-20 22:32:47.397 [main] INFO  org.example.Calculator - RESULT - FACTORIAL = 24
+2023-03-20 22:32:47.405 [main] INFO  org.example.Calculator - [POWER of  2 TO THE ] 3
+2023-03-20 22:32:47.405 [main] INFO  org.example.Calculator - [RESULT  POWER]  8.0
+2023-03-20 22:32:47.405 [main] INFO  org.example.Calculator - [POWER of  4 TO THE ] 2
+2023-03-20 22:32:47.406 [main] INFO  org.example.Calculator - [RESULT  POWER]  16.0
