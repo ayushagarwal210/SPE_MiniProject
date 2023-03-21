@@ -10,7 +10,7 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculator scientificCalculatorObj = new Calculator();
-        while(true) {
+        do {
             System.out.println("Please Enter the operation that you want to perform:-  \n Press 1 to find square root \n Press 2 to find the factorial \n Press 3 to find the log \n Press 4 to find the power \n Press else to exit");
             int option = sc.nextInt();
             if (option == 1) {
@@ -38,7 +38,7 @@ public class Calculator {
                 System.out.println("Goodbye!!");
                 break;
             }
-        }
+        } while(true);
     }
     public double squareRoot(int number) {
         logger.info("[SQ ROOT] - " + number);
