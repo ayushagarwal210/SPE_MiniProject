@@ -86,8 +86,19 @@ public class Calculator {
     public int factorial(int number) {
         logger.info("Factorial =  " + number);
         int result =1,i;
-        for(i=2;i<=number;i++) {
-            result*=i;
+
+            try {
+                if(number<0) {
+                    result = -1;
+                    throw new ArithmeticException("Case of Nan 0.0/0.0");
+                }
+                for (i = 2; i <= number; i++) {
+                    result *= i;
+                }
+
+            }
+        catch(ArithmeticException exception){
+            System.out.println("[EXCEPTION - LOG] - Cannot find factorial of negative numbers " + exception.getLocalizedMessage());
         }
         logger.info("RESULT - FACTORIAL = " + result);
         return result;
